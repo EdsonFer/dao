@@ -15,7 +15,7 @@ require_once("config.php");
 //$search = Usuario::search("Ed");
 //echo json_encode($search);
 
-//Carrega um usuário usando login e senha
+//Carrega um usuário usando login e senha 
 $usuario = new Usuario();
 $usuario->Login("Edson", "123456789");
 echo $usuario;
